@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="grid grid-cols-2 h-screen overflow-hidden">
+    <section class="bg-gray-100 relative">
+        <p class="bg-yellow-400 h-16 w-16 p-4 rounded-full absolute top-2 right-2">Sale</p>
+        <img class="h-full w-full object-cover"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8b48iYawOvpldm9d8U_DQclzkgaBHBsBWcZKTLoHENg&s=10"/>
+    </section>
+    <section class="flex justify-center items-start flex-col px-16  gap-4">
+        <h1 class="text-[35px]">Comfy pet bed</h1>
+        <p>Designed with ♥ by PetX</p>
+        <div class="flex gap-4">
+        <span>$29,50</span> <span class="line-through text-gray-500">$55,50</span>
+        </div>
+        <div class="flex gap-2">
+            <div class="w-6 h-6 rounded-full border-2 border-black flex items-center justify-center">
+                <div class="w-4 h-4 bg-gray-500 rounded-full hover:p-4 transition-all duration-300"></div>
+            </div>
+            <div class="w-6 h-6 rounded-full border-2 border-black flex items-center justify-center">
+                <div class="w-4 h-4 bg-red-500 rounded-full hover:p-4 transition-all duration-300"></div>
+            </div>
+            <div class="w-6 h-6 rounded-full border-2 border-black flex items-center justify-center">
+                <div class="w-4 h-4 bg-blue-500 rounded-full hover:p-4 transition-all duration-300"></div>
+            </div>
+        </div>
+        <div class="relative">
+        <div class="absolute w-2 h-2 rounded-full bg-green-800  top-3 left-1">
+        </div>
+        <div >
+        <p class="bg-green-200 text-green-800 px-4 py-1 rounded-md">Avaliable</p>
+        </div>
+        </div>
+        <p class="font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea perspiciatis molestiae enim suscipit nisi possimus, quos quod facere iste laudantium doloremque provident esse omnis minus. Suscipit veritatis nulla ducimus reprehenderit.</p>
+        <hr class="w-full">
+        <div class="flex gap-8">
+            <p>Features</p>
+            <div class="space-x-2 ">
+                <span class="bg-gray-300 rounded-full p-1 text-[10px]">Waterproof</span>
+                <span class="bg-gray-300 rounded-full p-1 text-[10px]">Eco-friendly</span>
+            </div>
+        </div>
+        <div class="flex gap-4">
+            <span class="underline underline-offset-2">Size Guide</span>
+            <span class="underline underline-offset-2">Care Guide</span>
+        </div>
+        <hr class="w-full">
+        <div class="flex gap-2 w-full">
+            <div class="flex w-24">
+                <button class="text-gray-500">-</button><span>1</span><button class="text-gray-500">+</button>
+            </div>
+            <div class="w-full">
+                <button class="bg-black text-white rounded-full w-full">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
